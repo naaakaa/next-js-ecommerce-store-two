@@ -1,6 +1,10 @@
-import Image from 'next/image';
-import styles from './page.module.css';
+import ColorButton from './ColorButton';
 
-export default function Home() {
-  return <main>Welcome to our Store!</main>;
+export default function HomePage() {
+  return (
+    <main>
+      <ColorButton />
+      <h1>Welcome to our Store!</h1>
+    </main>
+  );
 }
